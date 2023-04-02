@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-image: linear-gradient(rgba(19, 19, 19, 0.8), rgba(41, 12, 37, 0.7)), url("https://d1ef7ke0x2i9g8.cloudfront.net/manila/_large1400/334697/K-Pop-Superstars-BTS-to-Go-on-%E2%80%98Hiatus%E2%80%99-But-Talent-Agency-Says-Group-Will-%E2%80%98Remain-Active%E2%80%99.webp");
+    background-size: auto;
+    background-repeat: round;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(15, 1, 14, 0.7);
+    min-height: 100px;
+}
+
+@media screen and (max-width:700px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgba(15, 1, 14, 0.7);
+        min-height: 100px;
+    }
+}
+
+.logo{
+    font-size: 24px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.menu a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.menu a:hover{
+    color: pink;
+    background-color: purple;
+    border-radius: 24px;
+    padding: 5px;
+    
+}
+.summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+    padding: 0px 20px;
+}
+#date{
+    cursor: default;
+    background-color: rgba(197, 197, 197, 0.07);
+    padding: 0px 10px;
+    border-radius: 24px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0px 30px;
+    min-height: 100vh;
+}
+#mainDiv{
+    max-width: 50%;
+}
+.mainContent{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.mainContent h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.mainContent img{
+    max-width: 90%;
+    margin: 10px 0px;
+    border-radius: 16px;
+    opacity: 0.9;
+    box-shadow: 10px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.mainContent a{
+    text-decoration: underline;
+    color:white;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.mainContent a:hover{
+    background-color: purple;
+    text-decoration: none;
+    color: pink;
+    padding: 5px;
+    border-radius: 24px;
+}
+.extraContent{
+    overflow: hidden;
+    max-width: 20%;
+    max-height: 70vh;
+    background-color: rgba(36, 6, 27, 0.3);
+    border-radius: 24px;
+    padding: 20px;
+}
+.extraContent a{
+    text-decoration: none;
+    color: white;
+}
+.extraContent img{
+    opacity: 0.9;
+    border-radius: 24px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.extraContent hr{
+    color: white;
+    margin: 5px 0px;
+}
+.searcher{
+    display: flex;
+    margin: 0;
+}
+.searcher input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    width: 50px;
+    transition-timing-function: ease-in-out;
+    transition: .5s;
+    opacity: 0.5;
+}
+.searcher input:hover{
+    width: 200px;
+    opacity: 1;
+}
+.searcher button{
+    display: flex;
+    border: 0;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+.searcher button:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.homeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90vh;
+    background-color: White;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    opacity: 0.5;
+}
+.homeButton a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.homeButton:hover{
+    opacity: 80;
+    width: 45px;
+    height: 45px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100px;
+}
