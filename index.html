@@ -7,82 +7,134 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="styles.css">
     <script src="scripts\timeDateScript.js"></script>
+    <script src="scripts/notReadyYet.js"></script>
     <title>ARMY is <3</title>
 </head>
 <body onload="timeDate()">
     <div class="banner">
         <div class="logo">
-           <a href="#"><h1>ARMY is Love <span class="material-symbols-outlined">favorite</span></h1></a>
-        </div> 
+            <a href="#"><h1>ARMY is Love <span class="material-symbols-outlined">favorite</span></h1></a>
+        </div>        
         <nav class="menu">
             <a href="#">Sobre nosotros</a>
             <a href="#">Contacto</a>
-            <a href="#">FAQ</a>            
+            <a href="#">FAQ</a>     
+            <div id="toggle-menu" class="toggle-menu">
+                <span class="material-symbols-outlined">menu</span>        
+            </div>                           
         </nav>
     </div>
+        <nav id="hidden-menu" class="hidden-menu">
+            <ul id="menu-items" class="menu-items">
+                <li id="menu-item" class="menu-item">
+                    <a href="#" id="menu-link" class="menu-link">ARMY test</a>
+                </li>
+                <li id="menu-item" class="menu-item">
+                    <a href="#" id="menu-link" class="menu-link">Ruleta</a>
+                </li>
+                <li id="menu-item" class="menu-item">
+                    <a href="#" id="menu-link" class="menu-link">bighit entertainment</a>
+                </li>
+                <li id="menu-item" class="menu-item">
+                    <a href="#" id="menu-link" class="menu-link">Donaciones</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="scripts/toggleMenu.js"></script>
     <div class="summary">
         <p id="date"></p>
         <form action="" class="searcher" target="_self">
             <input type="text" placeholder="Search">
-            <button type="submit"><span class="material-symbols-outlined">search</span></button>
+            <button type="submit" onclick="notReadyYet()"><span class="material-symbols-outlined">search</span></button>
         </form>
     </div> 
     <div class="container">  
+
         <aside class="extraContent">
             <section>
                 <a href="https://www.youtube.com/watch?v=nAtSdy6of-k" target="_blank" rel="noreferrer noopener">
                 <p>Los hermanitos pequenos de BTS toman relevancia.</p>
-                <img src="https://static01.nyt.com/images/2023/02/07/arts/06billboard/06billboard-superJumbo.jpg" alt="txt">
+                <img src="https://static01.nyt.com/images/2023/02/07/arts/06billboard/06billboard-superJumbo.jpg" alt="TXT">
                 <p>Tomorrow by Together se convierte en el grupo de chicos mas escuchado del 2023.</p>
                 </a>  
             </section>
-            <hr>            
+            <hr>       
+            <section>
+                <a href="https://www.youtube.com/watch?v=nAtSdy6of-k" target="_blank" rel="noreferrer noopener">
+                <p>Los hermanitos pequenos de BTS toman relevancia.</p>
+                <img src="https://static01.nyt.com/images/2023/02/07/arts/06billboard/06billboard-superJumbo.jpg" alt="TXT">
+                <p>Tomorrow by Together se convierte en el grupo de chicos mas escuchado del 2023.</p>
+                </a>  
+            </section>
+            <hr>
+            <section>
+                <a href="https://www.youtube.com/watch?v=nAtSdy6of-k" target="_blank" rel="noreferrer noopener">
+                <p>Los hermanitos pequenos de BTS toman relevancia.</p>
+                <img src="https://static01.nyt.com/images/2023/02/07/arts/06billboard/06billboard-superJumbo.jpg" alt="TXT">
+                <p>Tomorrow by Together se convierte en el grupo de chicos mas escuchado del 2023.</p>
+                </a>  
+            </section>
+            <hr>             
         </aside>
         <div id="mainDiv">
         <article class="mainContent">
             <h1>Integrantes de BTS</h1>
             <p>
-                El grupo esta conformado por 7 integrantes: <a href="#Jungkook">JungKook</a>, <a href="#Jimin">Jimin</a>, <a href="#JHope">J Hope</a>, <a href="#RM">RM</a>, <a href="#Jin">Jin</a>, <a href="#V">V</a> y <a href="#Suga">Suga</a>.
+                El grupo esta conformado por 7 integrantes: <a href="#Jungkook" target="_self" rel="noreferrer noopener">JungKook</a>, <a href="#Jimin" target="_self" rel="noreferrer noopener">Jimin</a>, <a href="#JHope" target="_self" rel="noreferrer noopener">J Hope</a>, <a href="#RM" target="_self" rel="noreferrer noopener">RM</a>, <a href="#Jin" target="_self" rel="noreferrer noopener">Jin</a>, <a href="#V" target="_self" rel="noreferrer noopener">V</a> y <a href="#Suga" target="_self" rel="noreferrer noopener">Suga</a>.
             </p>            
                 <img src="https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2021/07/08/62d30fc0-81a2-4093-b5aa-182a94855233_386389bf.jpg" alt="bts">
             <p>
-                Mas texto aca.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora facilis eius modi possimus ab libero deserunt placeat porro nulla quos iste dolor molestias corporis ipsam nostrum quia, in dignissimos harum!
             </p>
         </article>
         <article class="mainContent" id="Jungkook">
             <h1>JungKook</h1>
             <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/1/1/f/d/11fd2af330736cb78d5d0a048c1ea88b.jpg" alt="Jungkook">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, suscipit iste doloribus omnis aut corrupti alias id error repudiandae assumenda rem velit ad blanditiis consequuntur, tenetur reprehenderit mollitia labore voluptatem?
+            </p>
         </article>
         <article class="mainContent" id="Jimin">
             <h1>Jimin</h1>
             <img src="https://m.sakshipost.com/visual-stories/entertainment/2022-04-04/bts-jimin-heart_1649054773.jpg" alt="Jimin">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel incidunt praesentium? Eveniet consequatur eligendi repellendus iusto officia ipsa architecto amet molestiae vitae sed quisquam odio optio, quo voluptas minima?
+            </p>
         </article>
         <article class="mainContent" id="JHope">
             <h1>J hope</h1>
             <img src="https://static.toiimg.com/photo/msid-92082175/92082175.jpg?35818" alt="Jhope">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam mollitia quae at aperiam adipisci nesciunt fugiat earum hic similique accusamus fugit, a expedita magni nulla nisi vitae illum voluptas neque?
+            </p>
         </article>
         <article class="mainContent" id="RM">
             <h1>RM</h1>
             <img src="https://www.soundpark.news/__export/1626562602332/sites/debate/img/2021/07/17/rm_x1x_crop1626562190729.jpg_423682103.jpg" alt="RM">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iste esse, atque sit eveniet temporibus mollitia facilis voluptatum. Praesentium dolore perspiciatis libero veniam minima aliquid cumque quaerat blanditiis laudantium non!
+            </p>
         </article>
         <article class="mainContent" id="Jin">
             <h1>Jin</h1>
             <img src="https://media.cnn.com/api/v1/images/stellar/prod/221125013614-02-jin-bts-112119-restricted.jpg?c=1x1" alt="Jin">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse porro aliquam minus atque blanditiis explicabo pariatur adipisci distinctio cupiditate repudiandae accusamus consequatur, amet alias cum repellendus in, magni ratione. Nostrum!
+            </p>
         </article>
         <article class="mainContent" id="V">
             <h1>V</h1>
             <img src="https://elcomercio.pe/resizer/OsxwLed719KXr1D9lOhBF789Wxw=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/Y3MNA35HJZH7TK7BIZNUYP55EE.jpg" alt="V">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat a deserunt voluptates saepe animi natus harum, repudiandae reiciendis quo exercitationem excepturi, ipsa sint recusandae possimus reprehenderit error id dolores.
+            </p>
         </article>
         <article class="mainContent" id="Suga">
             <h1>Suga</h1>
             <img src="https://elcomercio.pe/resizer/wytIVckOR0rXJrp_rRNUcu3IQM4=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SD2SK7IPKJBLPJZ3YPHQI3OSTQ.jpg" alt="Suga">
-            <p>El Maknae del grupo.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ut officiis nesciunt unde ipsa? Temporibus, dicta voluptate tempore ullam reprehenderit amet suscipit officiis aliquam sapiente, saepe ipsum, laboriosam aperiam vero.
+            </p>
         </article>
     </div>
         <div class="homeButton">
@@ -90,7 +142,12 @@
         </div>
     </div>
     <footer>
-        Footer info
+        <p><a href="https://www.kls.com" target="_blank" rel="noopener noreferrer"><abbr title="Korean Lover Startup">KLS ©</abbr></a></p>
+        <nav class="menu">
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer noopener">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank" rel="noreferrer noopener">Twitter</a>
+        </nav>
     </footer>
 </body>
 </html>
